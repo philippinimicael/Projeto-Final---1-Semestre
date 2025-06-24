@@ -1,0 +1,138 @@
+:root {
+    --azul: #0802a3;
+    --rosa: #ff4b91;
+    --salmao: #ff7676;
+    --amarelo: #ffcd4b;
+}
+
+.pai1 {
+    
+    background-color: rgb(255, 255, 255);
+    min-height: 80vh;
+
+    /* ------------------------- */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+
+.filho:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.filho {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+    transition: 0.3s;
+
+}
+
+#filho_0 {
+    background-image: url(https://picsum.photos/600/610);
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#filho_1 {
+    background-image: url(https://picsum.photos/600/604);
+}
+
+#filho_2 {
+    background-image: url(https://picsum.photos/600/605);
+}
+
+#filho_3 {
+    background-image: url(https://picsum.photos/600/598);
+}
+
+#filho_4 {
+    background-image: url(https://picsum.photos/600/599);
+}
+
+#filho_5 {
+    background-image: url(https://picsum.photos/600/600);
+}
+
+#filho_6 {
+    grid-column: 2/5;
+    grid-row: 2/4;
+
+    background-image: url(https://picsum.photos/600/607);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pai2 {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+
+    /* ------------------------- */
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#filho_7 {
+    background-image: url(https://picsum.photos/600/611);
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#filho_8 {
+    background-image: url(https://picsum.photos/600/612);
+}
+
+#filho_9 {
+    background-image: url(https://picsum.photos/600/613);
+}
+
+#filho_10 {
+    background-image: url(https://picsum.photos/600/614);
+}
+
+#filho_11 {
+    background-image: url(https://picsum.photos/600/615);
+}
+
+#filho_12 {
+    background-image: url(https://picsum.photos/600/616);
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+#filho_13 {
+    background-image: url(https://picsum.photos/600/617);
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+#filho_14 {
+    background-image: url(https://picsum.photos/600/618);
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+.background-galeria-amarelo{
+    background-color: var(--amarelo);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.background-galeria-azul{
+    background-color: var(--azul);
+    border-radius: 15px;
+    padding: 30px;
+}

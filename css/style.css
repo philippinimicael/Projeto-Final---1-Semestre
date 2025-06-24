@@ -1,0 +1,279 @@
+:root {
+    --azul: #0802a3;
+    --rosa: #ff4b91;
+    --salmao: #ff7676;
+    --amarelo: #ffcd4b;
+}
+
+.bg-azul {
+    background-color: var(--azul);
+    color: white;
+}
+
+.bg-rosa {
+    background-color: var(--rosa);
+    color: white;
+}
+
+.bg-salmao {
+    background-color: var(--salmao);
+    color: white;
+}
+
+.bg-amarelo {
+    background-color: var(--amarelo);
+    color: white;
+}
+
+.text-azul {
+    color: var(--azul);
+}
+
+.text-rosa {
+    color: var(--rosa);
+}
+
+.text-salmao {
+    color: var(--salmao);
+}
+
+.text-amarelo {
+    color: var(--amarelo);
+}
+
+.border-azul {
+    border: 1px solid var(--azul);
+}
+
+.border-rosa {
+    border: 1px solid var(--rosa);
+}
+
+.border-salmao {
+    border: 1px solid var(--salmao);
+}
+
+.border-amarelo {
+    border: 1px solid var(--amarelo);
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.btn-meu {
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-meu:hover {
+    transform: scale(1.1);
+}
+
+.link-none {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.logo {
+    width: 9vh;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.header {
+    height: 80vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+}
+
+.containerHeader {
+    height: 80vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
+}
+
+.header-titulos {
+    text-align: center;
+    color: white;
+}
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.cardIndex {
+    transition: 0.3s;
+    border: none;
+    overflow: hidden;
+}
+
+.cardIndex:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.cardIndex img {
+    transition: 0.5s;
+}
+
+.cardIndex:hover img {
+    transform: scale(1.04);
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.header-esportes {
+    height: 60vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-esportes {
+    height: 60vh;
+    display: flex;
+
+    align-items: center;
+}
+
+.titulos-esportes {
+    color: white;
+}
+
+.gradianteEsportes {
+    background: linear-gradient(to right, rgba(8, 2, 163, 0.8) 0%, rgba(255, 118, 118, 0.5) 100%);
+}
+
+.cardEsportes {
+    border: none;
+
+    border-left: 5px solid var(--rosa);
+    transition: 0.3s;
+}
+
+.cardEsportes:hover {
+    box-shadow: 0 1px 1rem black;
+    transform: translateY(-10px);
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.headerCadastros {
+    height: 70vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+}
+
+.containerCadastros {
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+}
+
+.titulosCadastros a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulosCadastros {
+
+    text-align: center;
+    color: white;
+
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.titulosCadastros:hover {
+    transform: translateY(20px);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+.titulosCadastros:hover a {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.nav-footer {
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+
+.nav-footer:hover {
+    transform: translateX(5px);
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.grandient-geral {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.img-hover{
+    transition: 0.3s;
+}
+
+.img-hover:hover{
+    transform: scale(1.02);
+}
+
+.imagemSmall{
+    height: 300px;
+}
+
